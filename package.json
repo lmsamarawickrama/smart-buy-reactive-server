@@ -1,0 +1,47 @@
+{
+  "name": "smart-buy-server",
+  "version": "1.0.0",
+  "description": "Backend for Smart Buy which compares prices from different supermarkets and allow users to buy from different supermarkets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmsamarawickrama/smart-buy-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "postgresql",
+    "rest",
+    "graphql",
+    "mongodb",
+    "unittest"
+  ],
+  "author": "Lahiru Samarawickrama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmsamarawickrama/smart-buy-server/issues"
+  },
+  "homepage": "https://github.com/lmsamarawickrama/smart-buy-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^6.11.1",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.10",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "swagger-autogen": "^2.8.2",
+    "swagger-ui-express": "^4.1.6",
+    "winston": "^3.3.3"
+  }
+}
