@@ -1,1 +1,1 @@
-# smart-buy-reactive-server
+# smart-buy-server-graphql
